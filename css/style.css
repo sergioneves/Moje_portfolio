@@ -1,0 +1,40 @@
+/* General styles - START */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+    background-color: orange;
+    margin: 0;
+}
+
+
+/* General styles - STOP */
+
+
+/* Main menu styles - START */
+
+#main-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+#main-nav > ul {
+    text-align: right;
+}
+
+#main-nav > ul > .menu-item {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+#main-nav > ul > .menu-item > a {
+    color: #1ac056;
+    text-decoration: none;
+}
