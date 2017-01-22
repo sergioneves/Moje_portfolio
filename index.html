@@ -4,26 +4,104 @@
 <head>
     <meta charset="UTF-8">
     <title>Moja własna strona</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <!--Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:300,400,700" rel="stylesheet">
+    <!-- Font Awesome styles -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Main styles -->
+    <link rel="stylesheet" href="css/style.css"> </head>>
 
-    <head>
-
-        <body>
-            <!--Menu główne - START -->
-            <nav id="main-nav">
-                <ul>
-                    <li class="menu-item"><a href="#about">Home</a></li>
-                    <li class="menu-item"><a href="#skills">O mnie</a></li>
-                    <li class="menu-item"><a href="#portfolio">portfolio</a></li>
-                    <li class="menu-item"><a href="#contact">kontakt</a></li>
-                </ul>
-            </nav>
-            <!--Menu główne - STOP -->
-            <!--Nagłówek strony - START -->
-            <header id="header">
-                <h1 id="main-header-text">Moja własna strona</h1> </header>
-            <!-- Nagłówek strony - STOP -->
-        </body>
+<body>
+    <!--Menu główne - START -->
+    <nav id="main-nav">
+        <ul>
+            <li class="menu-item"><a href="#about">Home</a></li>
+            <li class="menu-item"><a href="#skills">O mnie</a></li>
+            <li class="menu-item"><a href="#portfolio">portfolio</a></li>
+            <li class="menu-item"><a href="#contact">kontakt</a></li>
+        </ul>
+    </nav>
+    <!--Menu główne - STOP -->
+    <!--Nagłówek strony - START -->
+    <header id="main-header">
+        <div id="header-content">
+            <h1>Sergio<span>Neves</span></h1>
+            <h2>Front-End Developer</h2> </div>
+    </header>
+    <!-- Nagłówek strony - STOP -->
+    <!-- Seekcja about - START -->
+    <section id="about">
+        <h2>O <span>mnie</span></h2>
+        <figure class="col-1-2"> <img src="img/jan-nowak.jpg" alt="zdjecie developera"> </figure>
+        <div class="col-1-2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt nisi vitae eros tempor sodales. Nunc eget lobortis justo. Sed sodales mauris in feugiat eleifend. Interdum et malesuada fames ac ante ipsum primis in faucibus. In tortor velit, accumsan venenatis bibendum vitae, interdum at magna. Morbi malesuada sapien odio, a tincidunt sem viverra nec. Cras vehicula lobortis neque a vehicula. Aenean semper nisl et enim semper sodales. In hac habitasse platea dictumst. Quisque nec velit maximus, vulputate est a, pellentesque mauris. Cras ut semper sem, nec condimentum metus. In congue sem eu purus tristique lacinia. Proin congue ipsum eu nibh pulvinar sollicitudin. Nullam eget arcu accumsan, elementum tellus imperdiet, convallis lorem. Nunc rutrum mattis ligula. </div>
+    </section>
+    <!-- Seekcja about - STOP -->
+    <!-- Seekcja skills - START -->
+    <section id="skills">
+        <h2>Moje <span>umiejętności</span></h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt nisi vitae eros tempor sodales. Nunc eget lobortis justo. Sed sodales mauris in feugiat eleifend. Interdum et malesuada fames ac ante ipsum primis in faucibus. In tortor velit, accumsan venenatis bibendum vitae, interdum at magna. Morbi malesuada sapien odio, a tincidunt sem viverra nec. Cras vehicula lobortis neque a vehicula. Aenean semper nisl et enim semper sodales. In hac habitasse platea dictumst. Quisque nec velit maximus, vulputate est a, pellentesque mauris. Cras ut semper sem, nec condimentum metus. In congue sem eu purus tristique lacinia. Proin congue ipsum eu nibh pulvinar sollicitudin. Nullam eget arcu accumsan, elementum tellus imperdiet, convallis lorem. Nunc rutrum mattis ligula. </p>
+        <div id="skills-icons">
+            <figure> <img src="icons/html5.png" alt="HTML5">
+                <figcaption>HTML5</figcaption>
+            </figure>
+            <figure> <img src="icons/css3.png" alt="CSS3">
+                <figcaption>CSS3</figcaption>
+            </figure>
+            <figure> <img src="icons/js.png" alt="JavaScript">
+                <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure> <img src="icons/jquery.png" alt="jQuery">
+                <figcaption>jQuery</figcaption>
+            </figure>
+        </div>
+    </section>
+    <!-- Seekcja skills - STOP -->
+    <!-- Seekcja  portfolio- START -->
+    <section id="portfolio">
+        <h2>Moje <span>portfolio</span></h2>
+        <div id="portfolio-items">
+            <div class="portfolio-item" id="portfolio-item-1">
+                <div class="portfolio-item-mask">
+                    <div class="portfolio-item-content">
+                        <div class="portfolio-item-content-inner">
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt nisi vitae eros tempor sodales.</p>
+                            <h4>Wykorzystane technologie: </h4>
+                            <p>HTML5, CSS3, JavaScript</p> <a href=""><i class="fa fa-2x fa-link"></i></a> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" id="portfolio-item-2">
+                <div class="portfolio-item-mask">
+                    <div class="portfolio-item-content">
+                        <div class="portfolio-item-content-inner">
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt nisi vitae eros tempor sodales.</p>
+                            <h4>Wykorzystane technologie: </h4>
+                            <p>HTML5, CSS3, JavaScript</p> <a href=""><i class="fa fa-2x fa-link"></i></a> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" id="portfolio-item-3">
+                <div class="portfolio-item-mask">
+                    <div class="portfolio-item-content">
+                        <div class="portfolio-item-content-inner">
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt nisi vitae eros tempor sodales.</p>
+                            <h4>Wykorzystane technologie: </h4>
+                            <p>HTML5, CSS3, JavaScript</p> <a href=""><i class="fa fa-2x fa-link"></i></a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seekcja portfolio - STOP -->
+    <!-- Seekcja contact - START -->
+    <section id="contact">
+        <h2>Sergio <span>Neves</span></h2>
+        <figure class="col-1-2"> <img src="img/jan-nowak.jpg" alt="zdjecie developera"> </figure>
+        <div class="col-1-2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt nisi vitae eros tempor sodales. Nunc eget lobortis justo. Sed sodales mauris in feugiat eleifend. Interdum et malesuada fames ac ante ipsum primis in faucibus. In tortor velit, accumsan venenatis bibendum vitae, interdum at magna. Morbi malesuada sapien odio, a tincidunt sem viverra nec. Cras vehicula lobortis neque a vehicula. Aenean semper nisl et enim semper sodales. In hac habitasse platea dictumst. Quisque nec velit maximus, vulputate est a, pellentesque mauris. Cras ut semper sem, nec condimentum metus. In congue sem eu purus tristique lacinia. Proin congue ipsum eu nibh pulvinar sollicitudin. Nullam eget arcu accumsan, elementum tellus imperdiet, convallis lorem. Nunc rutrum mattis ligula. </div>
+    </section>
+</body>
 
 </html>
